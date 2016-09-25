@@ -38,7 +38,6 @@ public class SampleWebThymeleaf3Application {
 			}
 		};
 	}
-
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SampleWebThymeleaf3Application.class, args);
 	}

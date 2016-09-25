@@ -7,6 +7,7 @@
 	href="../../css/bootstrap.min.css" />
 </head>
 <body>
+
 	<div class="container">
 		<div class="navbar">
 			<div class="navbar-inner">
@@ -16,10 +17,26 @@
 				<ul class="nav">
 					<li><a th:href="@{/}" href="messages.html"> Messages </a></li>
 				</ul>
+                <ul class="nav pull-right">
+                    <li class="dropdown pull-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Sign in with FB</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Sign in with VK</a></li>
+                        </ul>
+                    </li>
+                </ul>
 			</div>
 		</div>
 		<h1 layout:fragment="header">Layout</h1>
 		<div layout:fragment="content">Fake content</div>
 	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script th:src="@{/js/bootstrap.min.js}"></script>
 </body>
 </html>

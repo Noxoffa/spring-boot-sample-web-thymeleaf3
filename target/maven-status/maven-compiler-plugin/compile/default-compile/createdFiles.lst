@@ -1,0 +1,6 @@
+sample\web\thymeleaf3\SampleWebThymeleaf3Application.class
+sample\web\thymeleaf3\Message.class
+sample\web\thymeleaf3\MessageRepository.class
+sample\web\thymeleaf3\SampleWebThymeleaf3Application$1.class
+sample\web\thymeleaf3\mvc\MessageController.class
+sample\web\thymeleaf3\InMemoryMessageRepository.class
