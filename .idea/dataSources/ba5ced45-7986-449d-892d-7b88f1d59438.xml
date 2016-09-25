@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - messages@127.0.0.1">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="messages">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema"/>
+    <schema id="3" name="mysql"/>
+    <schema id="4" name="performance_schema"/>
+    <table id="5" parent="1" name="message"/>
+    <column id="6" parent="5" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="7" parent="5" name="Msg">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="8" parent="5" name="Summary">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="9" parent="5" name="Date">
+      <data-type>date|0</data-type>
+    </column>
+    <key id="10" parent="5" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

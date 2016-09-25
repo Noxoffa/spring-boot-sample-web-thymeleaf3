@@ -1,4 +1,5 @@
 sample\web\thymeleaf3\SampleWebThymeleaf3Application.class
+hibernate\Message.class
 sample\web\thymeleaf3\Message.class
 sample\web\thymeleaf3\MessageRepository.class
 sample\web\thymeleaf3\SampleWebThymeleaf3Application$1.class
